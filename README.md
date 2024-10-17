@@ -1,33 +1,26 @@
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Twitter][twitter-shield]][twitter-url]
+
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Decentralized-Data-Marketplace/CognideX-README">
+    <img src="images/cgdx-logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">CognideX Template</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    One Stop for All Data Exchange
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Decentralized-Data-Marketplace/CognideX-README"><strong>Explore the docs</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/Decentralized-Data-Marketplace/CognideX-README">View Demo</a>
   </p>
 </div>
 
@@ -45,14 +38,9 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -64,18 +52,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![CognideX Screen Shot][product-screenshot]](https://www.cognidex.ai)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+CognideX is a decentralized data marketplace built on the Polkadot ecosystem that incentivizes users for the high-quality data they provide. Users contribute to data pools and receive rewards in our native token, CGDX, based on the quality of their submissions. What sets us apart from other data marketplaces is our use of blockchain technology to verify each transaction, ensuring that all collected data is authentic and reliable. We prioritize user privacy by masking personal identifiable information (PII) and assigning each user an anonymous unique identifier hash.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+We merge individual data pools into a single, comprehensive Data Pool containing all user-uploaded data. This consolidation is achieved using cutting-edge AI technology while maintaining each user's unique identifier hash. With this extensive Data Pool, we can easily provide valuable insights into target markets.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+In addition to user-contributed data, CognideX features access to 22,000 datasets from across the internet. Our smart assistant, powered by Large Language Model (LLM) agents, seamlessly fetches these datasets, enabling users to search for datasets based on specific use cases. By leveraging LLMs, users can generate crystal-clear insights through any query, accessing information from an agent that has in-depth knowledge of both user-uploaded data and external datasets.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,16 +66,12 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+CognideX is built on the following:
 
-* [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![fastapi][fastapi]][fastapi-url]
+* [![moonbeam][Moonbeam]][Moonbeam-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,50 +80,123 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+CognideX is a decentralised data marketplace that empowers users to monetize their data and facilitate access to over 22,000 datasets via our smart assistant.
 
-### Prerequisites
+CognideX Ecosystem aims to provide a platform where users can monetize their data, whilst also providing privacy and security. We believe that data is the new oil, and we want to empower users to take control of their data and monetize it in a secure and private way. We aim to allow everyone to monetise data that you generate every day and get the true worth of your data.
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Here are some statistics of how much these companies earn for your data:
 
-### Installation
+| Social Media | Average Screentime per day | ARPU (Average Revenue Per User) per year |
+|--------------|:--------------------------:|:----------------------------------------:|
+| Facebook     | 33 min                     | $295                                     |
+| Instagram    | 29 min                     | $294                                     |
+| TikTok       | 32 min                     | $97                                      |
+| Snapchat     | 28 min                     | $57                                      |
+| Twitter      | 31 min                     | $79                                      |
+| YouTube      | 44 min                     | $42                                      |
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+We believe that you should be able to monetize your data, and not these companies.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Our mission in CognideX is to allow everyone to be able to make full use of the data they generate, not only that but for the data buyers to get what they want. CognideX has 2 main components, using these 2 components, users can easily access and monetize data.
 
+1. Data Pools
+Data Pools are where users can contribute their data in exchange for CGDX tokens (our native token). The data is then made available to other users.
+
+2. Smart Assistant
+The CognideX Smart Assistant is a conversational AI that helps users to access 22,000 datasets over the internet.
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Data Pools
+Datasets that are formed by aggregating many individual datasets from users. Users can contribute their data to these pools in exchange for CGDX tokens. The data is then made available to other users.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+
+#### Mechanics of Data Pools
+Each Data Pool will have the following attributes:
+
+**1. Token Allocated:** The amount of CGDX tokens that are allocated to the pool.
+
+
+**2. Minimum Data Quality Score:** The minimum quality score of data that can be contributed to the pool.
+
+
+**3. Max Incentive per User:** The maximum number of CGDX tokens that can be earned by a user for contributing data to the pool.
+
+
+**4. An Option to Stake:** Users can stake their CGDX tokens to the pool to earn a share of the pool's rewards if this option is enabled.
+
+
+**5. Price:** The price at which users can access the data in the pool.
+
+
+
+### Data Pool Lifecycle
+The lifecycle of a data pool is as follows:
+
+#### 1. Data Pool Creation
+- Any one can create a data pool. 
+- The creator of the pool will have to specify the attributes mentioned above. 
+- The creator will need to hold a certain amount of CGDX tokens to create a pool.
+
+#### 2. Data Pool Usage
+- Users can access the data in the pool by paying the price set by the pool creator. 
+- The price will be in CGDX tokens.
+- The data quality score of the data in the pool will be displayed to the user before they decide to access the data.
+
+#### 3. Data Pool Rewards
+- Users can earn CGDX tokens by contributing data to the pool. 
+- The amount of tokens earned will depend on the quality of the data contributed. 
+- The data quality score will be calculated by the CognideX platform.
+
+#### 4. Data Pool Staking
+- Users can stake their CGDX tokens to the pool to earn a share of the pool's sale. 
+- The share of rewards will depend on the amount of tokens staked by the user. 
+- The staking option will be enabled by the pool creator.
+
+#### 5. Data Pool Closure
+- Once the token allocation of the pool is exhausted, the pool will be closed for contribution. 
+- Users can still access the data in the pool by paying the price set by the creator. 
+- The creator can choose to close the pool at any time.
+
+#### 6. Price Proposals
+- Anyone can negotiate for a deal with the pool creator to access the data in the pool at a different price. 
+- The creator will then create the proposal and the user can accept or reject the proposal.
+
+#### 7. Contributing Data to a Data Pool
+- To contribute data to a data pool, users will have to follow the steps the creator of the pool has set. 
+- The data quality score of the data will be calculated by the CognideX platform. 
+- The user will be rewarded with CGDX tokens based on the quality of the data contributed.
+
+> **For Example:**<br />
+If a user contributes data with a quality score of 8, and the max incentive per user is 100 CGDX tokens, the user will earn 80 CGDX tokens.
+
+
+### Smart Assistant
+An AI-powered conversational assistant that helps users access datasets on the CognideX platform. The Smart Assistant is designed to help users find the data they need quickly and efficiently.
+
+> **Tip:** Search for datasets much faster using the Smart Assistant!
+
+#### Use Case Search
+With natural language processing capabilities, the Smart Assistant can understand user queries and provide relevant datasets. Users can ask questions like "What is the GDP of India?" or "Show me the population of China" and the Smart Assistant will provide the relevant datasets available on the platform.
+
+Some examples are as follows:
+<div align="center">
+    <img src="images/CognideX-Smart-Assistant-use-cases.png" alt="Logo" width="60%" height="60%">
+</div>
+
+
+#### Filtering Search Results
+Searching using the smart the Smart Assistant may give you datasets that are not drill-down to the specific data you need. You can then ask another question to filter the results. For example, if you ask "I would like some wine datasets to build a recommendation system", you may get multiple datasets. You can then ask "Can you filter datasets from Hong Kong?" to filter the results specific to that region.
+
+#### Data Source Information
+The Smart Assistant has access to all the data in our platform and can provide information about the data source. It will provide a link to the original source of the data so you can verify the information and download the respective dataset.
+
+#### Use Case based Recommendation
+The user can also input use cases in the Settings page (only available in the Consumer Profile for now) to personalize the datasets available in the Recommended Section. Multiple use cases can be entered for a broader range of recommendations.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,39 +205,19 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Improved Smart Assistant Module
+- [x] Improved UI
+- [x] Upgraded Smart Contracts over Moonbeam
+- [x] Deployed New Blockchain powered Data Pipeline
+- [x] Tested over new backend on AWS
+- [x] Deployed MVP
+- [ ] Beta Testing
+- [ ] Buying and Selling Data Functionality
+- [ ] Multi-language Support for Smart Assistant
+- [ ] Creation of custom Data Pools
+- [ ] Data Fusion
+- [ ] Ability to purchase TestNet Tokens
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Top contributors:
-
-<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
-</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,9 +235,14 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+CognideX - [@0xcognidexAI](https://x.com/0xcognidexAI) - info@cognidex.ai
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Jia Ye Tey - [@JiayeTey](https://x.com/JiayeTey) - bizv1086@partner.nus.edu.sg
+
+Bhargav Sagiraju - [@bargovis](https://x.com/bargovis) - bhargavs@nus.edu.sg
+
+
+Project Link: [CognideX](https://www.cognidex.ai/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -214,51 +251,33 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+We would like to acknowledge the following resources and organizations that have helped us build CognideX and turn it into what it is today:
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Moonbeam](https://moonbeam.network/)
+* [Polkadot](https://polkadot.com/)
+* [React](https://react.dev/)
+* [AWS](https://aws.amazon.com/)
+* [NUS AIDF](https://www.aidf.nus.edu.sg/)
+
+Sincere thanks for all your help throughout 🙏
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/Decentralized-Data-Marketplace/CognideX-README/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+<!-- [license-shield]: https://img.shields.io/github/license/Decentralized-Data-Marketplace/CognideX-README
+[license-url]: https://github.com/Decentralized-Data-Marketplace/CognideX-README/blob/main/LICENSE.txt -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/cognidex-sg/
-[product-screenshot]: images/screenshot.png
+[twitter-shield]: https://img.shields.io/badge/-X/Twitter-black.svg?style=for-the-badge&logo=X&colorB=555
+[twitter-url]: https://x.com/0xcognidexAI
+[product-screenshot]: images/cgdx-screenshot.png
 
 
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React.js]: https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=green
 [React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[fastapi]: https://img.shields.io/badge/fastapi-000000?style=for-the-badge&logo=fastapi&logoColor=red
+[fastapi-url]: https://fastapi.tiangolo.com/
+[Moonbeam]: https://img.shields.io/badge/moonbeam-000000?style=for-the-badge&logo=moonbeam&logoColor=white
+[Moonbeam-url]: https://moonbeam.network/
