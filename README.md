@@ -241,6 +241,8 @@ Jia Ye Tey - [@JiayeTey](https://x.com/JiayeTey) - bizv1086@partner.nus.edu.sg
 
 Bhargav Sagiraju - [@bargovis](https://x.com/bargovis) - bhargavs@nus.edu.sg
 
+Jen Park - [@jhpark8716](https://x.com/jhpark8716) - jh.park@nus.edu.sg
+
 
 Project Link: [CognideX](https://www.cognidex.ai/)
 
