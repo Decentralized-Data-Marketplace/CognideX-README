@@ -1,0 +1,7 @@
+# macOS specific files
+.DS_Store
+
+
+# Blank files
+BLANK_README.md
+CHANGELOG.md

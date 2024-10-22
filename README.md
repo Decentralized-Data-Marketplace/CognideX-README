@@ -226,7 +226,7 @@ The user can also input use cases in the Settings page (only available in the Co
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the Apache 2.0 License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -268,8 +268,6 @@ Sincere thanks for all your help throughout 🙏
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- [license-shield]: https://img.shields.io/github/license/Decentralized-Data-Marketplace/CognideX-README
-[license-url]: https://github.com/Decentralized-Data-Marketplace/CognideX-README/blob/main/LICENSE.txt -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/cognidex-sg/
 [twitter-shield]: https://img.shields.io/badge/-X/Twitter-black.svg?style=for-the-badge&logo=X&colorB=555
